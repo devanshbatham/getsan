@@ -28,8 +28,22 @@ go build
 - Uses concurrency for efficient and fast lookups
 
 ```sh
-(~) >>> cat domains.txt | getsan -c 50
+⚓ echo "cdn.syndication.twitter.com" | getsan | jq
 
-TODO
+{
+  "domain": "cdn.syndication.twitter.com",
+  "common_name": "syndication.twitter.com",
+  "org": [
+    "Twitter, Inc."
+  ],
+  "dns_names": [
+    "syndication.twitter.com",
+    "syndication.twimg.com",
+    "cdn.syndication.twitter.com",
+    "cdn.syndication.twimg.com",
+    "syndication-o.twitter.com",
+    "syndication-o.twimg.com"
+  ]
+}
 ```
 
