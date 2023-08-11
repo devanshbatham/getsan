@@ -27,7 +27,7 @@ func main() {
 	/*
 	   Parse command line flags to determine the number of concurrent tasks.
 	*/
-	concurrency := flag.Int("c", 50, "Number of concurrent tasks")
+	concurrency := flag.Int("c", 100, "Number of concurrent tasks")
 	flag.Parse()
 
 	var wg sync.WaitGroup
