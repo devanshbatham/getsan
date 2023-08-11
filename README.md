@@ -23,7 +23,7 @@ go install github.com/devanshbatham/getsan@latest
 # Usage
 
 - Fetches and displays dns names from the SSL/TLS cert data
-- Uses concurrency for efficient and fast lookups
+- Uses concurrency for efficient and fast lookups (e.g. `-c 200`)
 
 ```sh
 ⚓ echo "cdn.syndication.twitter.com" | getsan | jq
