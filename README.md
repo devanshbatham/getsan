@@ -13,7 +13,7 @@
 </p>
 
 
-![TLSDomains](https://example.com/tlsdomains.png)
+![getsan](https://github.com/devanshbatham/getsan/blob/main/static/banner.png?raw=true)
 
 # Installation
 ```sh
