@@ -17,9 +17,7 @@
 
 # Installation
 ```sh
-git clone https://github.com/yourusername/tlsdomains
-cd tlsdomains
-go build
+go install github.com/devanshbatham/getsan@latest
 ```
 
 # Usage
